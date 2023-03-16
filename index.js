@@ -15,7 +15,11 @@ const tabs = [
     {url: "https://www.linkedin.com/in/per-harald-borgen/"}
 ]
 
-tabBtn
+tabBtn.addEventListener("click", function() {
+    myLeads.push(tabs[0].url)
+    localStorage.setItem("myLeads", JSON.stringify(myLeads))
+    render(myLeads)
+})
 
 function render(leads) {
     let listItems = ""
