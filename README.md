@@ -1,7 +1,7 @@
 # Chrome Extension Leads Tracker - [Project on Scrimba](https://scrimba.com/learn/learnjavascript/) by [Per Harald Borgen](https://github.com/perborgen)
 
 ## what
-this is a browser extension that let's you save tabs by pasting the URL in the input field, or by clicking a button to automatically save current tab.
+this is a browser extension that lets you save tabs by pasting the URL in the input field, or by clicking a button to automatically save current tab.
 
 ![screenshot](./screenshot.png)
 
